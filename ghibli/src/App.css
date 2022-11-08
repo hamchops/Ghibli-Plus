@@ -1,38 +1,50 @@
 .App {
+  background-color: rgb(1, 55, 66);
+
+}
+
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(250px,1fr));
+  grid-gap: 1em;
+
+  /* flex-wrap:wrap;
+  justify-content: space-around; */
+
+}
+
+.h3{
+  color:rgb(255, 220, 161);
+}
+
+.movie-picture,.movie-list img{
+  border-radius: 25px;
+  padding: 1em;
+  width: auto;
+  height: 10em;
+  background-color: rgb(49, 214, 214);
+  margin: 1em;
+  justify-content:center;
+  box-shadow: 0 0 .70em rgb(39, 34, 34);
+  color: white;
+  font-family: 'Georgia';
+  cursor: pointer;
+  /* flex-direction: column; */
+
+}
+.box{
+  justify-content: space-around;
+}
+
+.filmline1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.movie-poster{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  text-align: center;
 }

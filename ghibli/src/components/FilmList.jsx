@@ -24,13 +24,16 @@ if (!filmList){
     return <h2>loading</h2>
 } else {
     return (
+        <div className="movie-list">
 
-        <div>
-            { filmList.map((x) =>(
-                <div>
-            <h2> Films </h2>
-            <h3> {x.title} </h3>
-    </div>))}
+         {/* <div className="movie-poster" > */}
+            { filmList.map((film) =>(
+                <div className="box"  key={film.title}>
+            <h3 className="filmline1"> {film.title}
+            ({film.original_title})</h3>
+            <img className="movie-poster" style={{display:"flex"}} src={film.movie_banner} alt={film.title} />
+                </div>))}
+            {/* </div> */}
         </div>
     )
 }
