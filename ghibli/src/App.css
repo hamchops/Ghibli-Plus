@@ -2,7 +2,7 @@
   background-color: #06283D;
 }
 
-
+/* styling for film list */
 .movie-list {
   display: grid;
   grid-template-columns: repeat(3,minmax(250px,1fr));
@@ -22,9 +22,10 @@
   padding: 1em;
   width: auto;
   height: 10em;
-  background-color: rgb(49, 214, 214);
+  background-color: rgb(28, 145, 223);
   margin: 1em;
-  justify-content:center;
+  display: flex;
+  
   box-shadow: 0 0 .70em rgb(54, 46, 46);
   color: white;
   font-family: 'Georgia';
@@ -34,16 +35,42 @@
 }
 .box{
   justify-content: space-around;
+
+
 }
 
 .filmline1 {
+  color:rgb(255, 220, 161);
   text-align: center;
 }
 
 .movie-poster{
   align-items: center;
 }
+/* styling film list end */
+
 
 .navbar{
   text-align: center;
+}
+
+.wallpaper img{
+  width: 100%;
+  height: 100%;
+}
+
+/* styling for main */
+
+.title{
+  
+  color: rgb(255, 220, 161);
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: rgb(255, 220, 161);
+  display: flex;
+  justify-content: center;
+
 }
