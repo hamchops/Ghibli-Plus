@@ -26,14 +26,14 @@ if (!characterList){
     return (
         <div className="character-list">
 
-        <div className="character-image" >
             { characterList.map((species) =>(
                 <div key={species.name}>
-            <h3> {species.name} </h3>
-            {/* <h3>{film.original_title}</h3>
-            <img style={{display:"flex"}} src={film.movie_banner} alt={film.title} /> */}
-    </div>))}
-        </div>
+            <h3> {species.name} {species.people} </h3>
+            {
+            // <img style={{display:"flex"}} src={species.movie_banner} alt={film.title} /> */
+            }
+            </div>))}
+
         </div>
     )
 }

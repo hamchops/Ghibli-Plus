@@ -1,6 +1,5 @@
 .App {
-  background-color: rgb(1, 55, 66);
-
+  background-color: #06283D;
 }
 
 
@@ -26,7 +25,7 @@
   background-color: rgb(49, 214, 214);
   margin: 1em;
   justify-content:center;
-  box-shadow: 0 0 .70em rgb(39, 34, 34);
+  box-shadow: 0 0 .70em rgb(54, 46, 46);
   color: white;
   font-family: 'Georgia';
   cursor: pointer;
