@@ -32,7 +32,9 @@ if (!filmList){
                 <div className="box"  key={film.title}>
             <h3 className="filmline1"> {film.title}
             ({film.original_title})</h3>
+            <a href="https://ghibliapi.herokuapp.com/films" target="_blank">
             <img className="movie-poster" style={{display:"flex"}} src={film.movie_banner} alt={film.title} />
+            </a>
                 </div>))}
             {/* </div> */}
         </div>
