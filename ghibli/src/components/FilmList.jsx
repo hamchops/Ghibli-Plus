@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { BASE_URL } from '../Globals'
-
-
 
 export default function FilmList () {
 
@@ -24,8 +21,12 @@ if (!filmList){
     return <h2>loading</h2>
 } else {
     return (
+        <div>
+            
+        <h1 className='title' > Ghibli +</h1>
+            
         <div className="movie-list">
-
+           
          {/* <div className="movie-poster" > */}
             { filmList.map((film) =>(
                 <div className="box"  key={film.title}>
@@ -35,8 +36,12 @@ if (!filmList){
                 </div>))}
             {/* </div> */}
         </div>
+        </div>
+
+
     )
 }
+
 }
 // gameData.map((game) =>(
 // <img style={{display:"block"}} src={game.background_image} alt={game.name} />

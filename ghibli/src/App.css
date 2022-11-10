@@ -23,9 +23,7 @@
   width: auto;
   height: 10em;
   background-color: rgb(28, 145, 223);
-  margin: 1em;
-  display: flex;
-  
+  margin: 0em;
   box-shadow: 0 0 .70em rgb(54, 46, 46);
   color: white;
   font-family: 'Georgia';
@@ -35,7 +33,8 @@
 }
 .box{
   justify-content: space-around;
-
+  padding-left: 20%;
+  margin-right: 30%;
 
 }
 
@@ -49,10 +48,6 @@
 }
 /* styling film list end */
 
-
-.navbar{
-  text-align: center;
-}
 
 .wallpaper img{
   width: 100%;
@@ -73,4 +68,28 @@
   display: flex;
   justify-content: center;
 
+}
+
+/* navbar styling */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: none;
+}
+
+ .homebtn,.filmbtn, .characterbtn {
+  display: flex;
+  text-decoration: none;
+  color: orange;
+  margin-left: 2em;
+  font-size: 40px;
+}
+
+
+
+.main-title {
+  display: flex;
+  justify-content: center;
 }
