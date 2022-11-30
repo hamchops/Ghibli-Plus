@@ -45,15 +45,3 @@ if (!filmList){
 }
 
 }
-// gameData.map((game) =>(
-// <img style={{display:"block"}} src={game.background_image} alt={game.name} />
-// // const [getFilmList, setFilmList] = useState ({})
-
-// // useEffect (() => {
-//     const getFilmList = async () => {
-//     const response = axios.get(`${BASE_URL}/films`)
-//     setFilmList(await response.data.results)
-//     console.log(`${BASE_URL}/films`)
-//     }
-//     getFilmList()
-// }, [])
